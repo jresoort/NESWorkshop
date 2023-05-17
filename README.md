@@ -12,41 +12,41 @@ In this workshop you will get started with developing NES games on your machine.
 
 ## Workshop Steps
 ### First build  
-check out repo https://github.com/jresoort/NESWorkshop
-update build_game.bat or build_game.sh (depending on platform) to point to cl65 executable
-run script to build game.nes file
-run game.nes in fceux emulator to try out
+* check out repo https://github.com/jresoort/NESWorkshop
+* update build_game.bat or build_game.sh (depending on platform) to point to cl65 executable
+* run script to build game.nes file
+* run game.nes in fceux emulator to try out
 
 ### Show sprites  
-We are enabling sprites  #0
-and loading them to memory #1
+* We are enabling sprites  #0
+* and loading them to memory #1
 
 ### Move a sprite
-Move the first sprite up every frame   #2
+* Move the first sprite up every frame   #2
 
 ### Move sprite with controller    
-disable #2
-enable read value from controller #3
-enable controls #4
+* disable #2
+* enable read value from controller #3
+* enable controls #4
 
 ### Update sprites with different char file
-disable importing of fonts.chr file #5
-enable import og chars.inc file #6
+* disable importing of fonts.chr file #5
+* enable import og chars.inc file #6
 
 ### Fire bullets 
-enable fire button #7
-enable movement of bullet #8
+* enable fire button #7
+* enable movement of bullet #8
 
 ### Show background
-disable #0
-enable background #9
+* disable #0
+* enable background #9
 
 ### Add background scrolling
-enable background scrolling #10
+* enable background scrolling #10
 
 ### Use 'advanced' movement for player sprite
-disable #4
-enable #11
+* disable #4
+* enable #11
 
 
 Well done, you have completed the guided steps. Now it's time to experiment. For example, change the speed of your player or bullets. Change the appearance and cololr of the sprites. Add enemies to shoot at. 
@@ -54,6 +54,7 @@ Well done, you have completed the guided steps. Now it's time to experiment. For
 
 ## Special thanks
 Workshop code based on: NesHacker DevEnvironmentDemo, https://github.com/NesHacker/DevEnvironmentDemo
+
 Font created by: 'WhoaMan', nesdev.org forum post https://forums.nesdev.org/viewtopic.php?t=10284
 
 
