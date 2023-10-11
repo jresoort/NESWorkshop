@@ -17,12 +17,11 @@ In this workshop you will get started with developing NES games on your machine.
 * run script to build game.nes file
 * run game.nes in fceux emulator to try out
 
-### Show sprites  
-* We are enabling sprites  #0
-* and loading them to memory #1
+The first build sets up some mandatory things, enables sprites an loads them into memory. If you run the build in an emulator you should see some text.
+Great, you have compiled and run your first NES program! In the next steps we will gradually improve it and implement the first steps for building a game. Each Step comes with some instructions for one or more pieces of code you should enable or disable. Try out the code provided but feel free to experiment.
 
 ### Move a sprite
-* Move the first sprite up every frame   #2
+* Move the first sprite up every frame. Enable code fragment marked with #2
 
 ### Move sprite with controller    
 * disable #2

@@ -255,16 +255,13 @@ sprites: ;ypos, char, attr, xpos
   .byte 110, $15, $00, 60 ;L
   .byte 110, $18, $00, 70 ;O
 
-  .byte 80, $1d, $00, 90;T
+  .byte 80, $0d, $00, 90;D
   .byte 90, $0e, $00, 100 ;E
-  .byte 100, $1a, $00, 110 ;Q
-  .byte 110, $17, $00, 120 ;N
-  .byte 120, $0A, $00, 130 ;A
-  .byte 130, $1d, $00, 140 ;T
-  .byte 140, $12, $00, 150 ;I
-  .byte 150, $18, $00, 160 ;O
-  .byte 160, $17, $00, 170 ;N
-  .byte 170, $24, $00, 180 ;!
+  .byte 100, $1f, $00, 110 ;V
+  .byte 110, $18, $00, 120 ;O
+  .byte 120, $21, $00, 130 ;X
+  .byte 130, $21, $00, 140 ;X
+
 
 palettes:
   ; Background Palette
